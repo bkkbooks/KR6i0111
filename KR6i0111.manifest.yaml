@@ -1,0 +1,210 @@
+canonical_identifier: bkk:krp/KR6i0111/v1
+canonical_location: https://kanripo.org/bkk/KR6i0111/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 持世經
+  identifiers:
+    alt_id:
+    - T14n0482
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0482.xml
+    old_id: T14n0482
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0111_000.yaml, hash: 'sha256:82502d1f1221417332083f12e997a0a8a069497717419db6aa982f5b8eff1454'}
+  - {seq: 1, filename: KR6i0111_001.yaml, hash: 'sha256:555d81c88936dff56af156c8632dc40fd919ca55f16902ad662bde4750d5e2aa'}
+  - {seq: 2, filename: KR6i0111_002.yaml, hash: 'sha256:fdb0c176b9d6570a2c743b5eb16c5e13c7f05b71e22b9aa9db9431d210f7287e'}
+  - {seq: 3, filename: KR6i0111_003.yaml, hash: 'sha256:faf137b641f3ba253cb21f7381dab90be674f5241bf0d46d18469b0e01455684'}
+  - {seq: 4, filename: KR6i0111_004.yaml, hash: 'sha256:0d1c23c6686045792083b4cbc615864652b6bfe683b7cdb50c8bc2546cbaf0c2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0111_001.markers.yaml, hash: 'sha256:2061367cab6095e224fb4c032de75e634e7711d386fa8821cd8026cf4fcee6b1'}
+  - {seq: 2, role: markers, filename: assets/KR6i0111_002.markers.yaml, hash: 'sha256:1d57788ba189844a08cc949c675f7d2abf5b49706b08468c5cfb50a6c89219e8'}
+  - {seq: 3, role: markers, filename: assets/KR6i0111_003.markers.yaml, hash: 'sha256:62d3a64cbe5ab8fe61185aeeea19f0c96bf7b90c6980d56b69e63b2e96093661'}
+  - {seq: 4, role: markers, filename: assets/KR6i0111_004.markers.yaml, hash: 'sha256:519e39a1c529f3c17df6dd3b5b2459936bd67fcac0c95180a1747019b67be73c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0111_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9547
+  label: 持世經卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0111_T_001-mulu-1
+    span:
+    - body
+    - 11
+    - 11
+  label: 1 初品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0111_T_001-mulu-2
+    span:
+    - body
+    - 5858
+    - 5858
+  label: 2 五陰品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0111_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 8317
+  label: 持世經卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0111_T_002-mulu-1
+    span:
+    - body
+    - 4730
+    - 4730
+  label: 3 十八性品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0111_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 8666
+  label: 持世經卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0111_T_003-mulu-1
+    span:
+    - body
+    - 11
+    - 11
+  label: 4 十二入品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0111_T_003-mulu-2
+    span:
+    - body
+    - 1716
+    - 1716
+  label: 5 十二因緣品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0111_T_003-mulu-3
+    span:
+    - body
+    - 4488
+    - 4488
+  label: 6 四念處品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0111_T_003-mulu-4
+    span:
+    - body
+    - 6890
+    - 6890
+  label: 7 五根品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0111_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 8510
+  label: 持世經卷第四
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0111_T_004-mulu-1
+    span:
+    - body
+    - 11
+    - 11
+  label: 8 八聖道分品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0111_T_004-mulu-2
+    span:
+    - body
+    - 2132
+    - 2132
+  label: 9 世間出世間品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0111_T_004-mulu-3
+    span:
+    - body
+    - 2936
+    - 2936
+  label: 10 有為無為法品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0111_T_004-mulu-4
+    span:
+    - body
+    - 3879
+    - 3879
+  label: 11 本事品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0111_T_004-mulu-5
+    span:
+    - body
+    - 7508
+    - 7508
+  label: 12 囑累品
+  type: mulu
+  level: 1
+hash: sha256:66e5981ffb8dc6b82007b842187ffc3553567c9709044a464d931bf2ae90bf93
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
